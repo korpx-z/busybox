@@ -1,4 +1,4 @@
-FROM s390x/debian:buster-slim
+FROM quay.io/ibmz/debian:buster-slim
 
 RUN set -eux; \
 	apt-get update; \
