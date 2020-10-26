@@ -5,9 +5,9 @@ env:
   global:
 #    - TEST_DIR="$PWD/1.15/alpine3.12/test/"
 #    - TEST_SCRIPT="test.sh"
-    - BUILD_DIR="$PWD/glibc/"
+    - BUILD_DIR="$PWD/musl/"
     - REPO="quay.io/ibmz/busybox"
-    - TAG="$REPO:glibc"
+    - TAG="$REPO:musl"
 before_script:
   - cd $BUILD_DIR && chmod +x *
 #  - cd $TEST_DIR && chmod +x $TEST_SCRIPT
