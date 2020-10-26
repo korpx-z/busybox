@@ -3,7 +3,7 @@ services:
   - docker
 env:
   global:
-    - TEST_DIR="$PWD/glibc/test/"
+    - TEST_DIR="$PWD/glibc/"
     - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/glibc/"
     - REPO="quay.io/ibmz/busybox"
