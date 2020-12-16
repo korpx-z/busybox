@@ -6,7 +6,7 @@ env:
     - TEST_DIR="$PWD/glibc/"
     - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/glibc/"
-    - REPO="quay.io/ibmz/busybox"
+    - REPO="quay.io/ibm/busybox"
     - TAG="$REPO:glibc"
 before_script:
   - cd $BUILD_DIR && chmod +x *
