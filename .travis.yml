@@ -6,7 +6,7 @@ env:
     - TEST_DIR="$PWD/musl/test/"
     - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/musl/"
-    - REPO="quay.io/ibmz/busybox"
+    - REPO="quay.io/ibm/busybox"
     - TAG="$REPO:musl"
 before_script:
   - cd $BUILD_DIR && chmod +x *
